@@ -1,0 +1,22 @@
+FAILED: Test 5 failed miserably
+	test_printItems failed: output did not match expected output
+PASS: Test 6 passed
+		test_destroy_sets_handle_to_NULL
+
+PASS: Test 7 passed
+	test_queue_destroy
+
+Expected output: Front is: nothing
+FAILED: Test 8 failed miserably
+	test_printFrontItem_empty_queue
+
+Expected output: frontIndex: 0
+backIndex: 0
+Actual output: frontIndex: 0
+backIndex: 0
+
+FAILED: Test 9 failed miserably
+	test_print_queue_indices
+
+Total number of tests: 10
+7/10 Pass, 3/10 Failure
